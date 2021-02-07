@@ -1,0 +1,21 @@
+.not-available {
+    color: goldenrod;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.col-md-3:hover {
+    cursor: pointer;
+}
+.card-text  {
+width:80% ;
+margin:auto;
+padding-bottom:30px;
+font-size: 30px;
+font-weight: bold;
+}
+.text-center{
+    font-size: 15px;
+    font-weight: 500;
+}
