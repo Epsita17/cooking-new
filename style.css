@@ -1,10 +1,22 @@
-.not-available {
-    color: goldenrod;
-    text-align: center;
-    font-size: 20px;
+body{
+    background-color:lightseagreen;
+}
+h1{
+    padding-left: 15px;
+    color:rgb(218, 32, 32);
     font-weight: bold;
 }
-
+#clientInput{
+    width: 400px;
+    margin:auto;
+    text-align: center;
+    border-radius: 4px;
+   }
+#search{
+    background-color: rgb(201, 120, 15);
+    width: 100px;
+    border-radius: 4px;
+}
 .col-md-3:hover {
     cursor: pointer;
 }
@@ -16,6 +28,36 @@ font-size: 30px;
 font-weight: bold;
 }
 .text-center{
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 500;
+}
+@media only screen and (max-width :600px){
+}
+.not-available {
+    color: #4c00ff;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+.card-body{
+    padding-top:8px ;
+    padding-bottom:8px ;
+}
+.card text-center{
+    background-color:#F8F7F5;
+    border-radius: 2%;
+}
+.card-img-top{
+    width: 100%;
+    border-top-right-radius: 3%;
+    border-top-left-radius: 3%;
+    margin-top:20px;
+}
+.card-text text-center{
+    font-size: 18px;
+}
+#close{
+    margin-right: 12px;
+    margin-top: 15px;  
+    font-size: 30px;
 }
